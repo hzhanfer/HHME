@@ -16,7 +16,7 @@ CC_FLAGS := \
 	-ffunction-sections -fdata-sections \
 	-fPIC \
 	-MMD -MP \
-	-Iapi \
+	-I. \
 	-Ihca/$(TARGET)
 
 LD_FLAGS := \
